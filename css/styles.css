@@ -1,0 +1,155 @@
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Young Serif', serif;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+span, p, td {
+    opacity: 1;
+    font-weight: 500;
+    color: #7a7878;
+}
+
+img {
+    display: flex;
+    width: 400px;
+    height: 170px;
+    max-width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    object-fit: cover;
+    justify-self: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+
+h1, img {
+    margin-bottom: 0.5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+h2, ol li::marker, ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+#preparation-time {
+    padding-left: 19px;
+}
+
+#summary {
+    margin-bottom: 20px;
+}
+
+#preparation-list {
+    margin-top: 0;
+}
+
+#instrunctions-list, #ingredients-list {
+    padding-left: 20px;
+}
+
+.preparation_container ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+}
+
+.align_container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.preparation_container {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+}
+
+.guide_container {
+    padding-left: 0;
+}
+
+.preparation_container, .ingredients_container, .instructions_container {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.ingredients_container, .instructions_container, .nutrition-table td {
+    border-bottom: 0.5px solid #b0b0b0;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table td {
+  padding: 12px 8px;
+  font-size: 1.2rem;
+}
+
+.nutrition-table td.highlight {
+  color: hsl(14, 45%, 36%);
+  text-align: left;
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background: hsl(30, 54%, 90%);
+    }
+
+    .container {
+        padding: 2.5rem;
+        margin: 4rem;
+        border-radius: 1rem;
+    }
+
+    .image-omelette {
+        border-radius: 1rem;
+    }
+
+    .align_container {
+        margin: 0;
+        padding-left: 0;
+    }
+}
