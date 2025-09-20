@@ -27,7 +27,7 @@ span, p, td {
 img {
     display: flex;
     width: 500px;
-    height: 170px;
+    height: 270px;
     max-width: 100%;
     margin-right: 0;
     padding-right: 0;
@@ -37,7 +37,7 @@ img {
 
 h1 {
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 3rem;
     opacity: 0.8;
 }
 
@@ -47,16 +47,28 @@ h1, img {
 
 strong {
   font-weight: 700;
+  opacity: .7;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+ul li, ol li {
+    padding-left: 1rem;
+}
+
+h2, h3 {
+    opacity: 0.8;
 }
 
 h3 {
     color: hsl(332, 51%, 32%);
-    font-size: 1.6rem;
-    margin-bottom: 0;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
 }
 
 h2, ol li::marker, ul li::marker {
@@ -98,6 +110,7 @@ h2, ol li::marker, ul li::marker {
 .preparation_container {
     background-color: hsl(330, 100%, 98%);
     border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 .guide_container {
@@ -111,6 +124,9 @@ h2, ol li::marker, ul li::marker {
 
 .ingredients_container, .instructions_container, .nutrition-table td {
     border-bottom: 0.5px solid #b0b0b0;
+    /* margin-bottom: 2rem; */
+    margin-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .nutrition-table {
